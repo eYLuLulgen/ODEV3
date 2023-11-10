@@ -9,7 +9,7 @@ void main() {
   // status değişkenini tanımlar. generateRandom fonksiyonunun dönüş değerini atar
   int? status = generateRandom();
 
-  // Eğer status null ise 0'ı yazdırır, değilse status'ı yazdırır
+  // Eğer status null ise 0'ı yazdırır, değilse 100 yazdırır
   if (status == null) {
     print("0");
   } else {
